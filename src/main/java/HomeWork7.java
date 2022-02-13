@@ -18,7 +18,7 @@ public class HomeWork7 {
                 plate.info();
                 if (cat.getAppetite() <= plate.getFood()) {
                     cat.eat(plate);
-                    System.out.println("Кот поел");
+                    System.out.println("Кот поел.");
                     plate.info();
                     cat.as();
 
